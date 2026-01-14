@@ -107,7 +107,7 @@ Edit `constants/config.ts` to set your backend API URL:
 
 ```typescript
 // Production
-export const API_URL = "https://your-api-url.com/api";
+export const API_URL = "https://colorie-tracker.vercel.app/api";
 
 // Local development (iOS Simulator)
 // export const API_URL = "http://localhost:8000/api";
