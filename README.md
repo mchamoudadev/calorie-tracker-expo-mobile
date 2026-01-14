@@ -2,6 +2,8 @@
 
 A React Native mobile application built with Expo for tracking calories and nutritional intake using AI-powered food recognition.
 
+> **📚 Backend Documentation**: This mobile app connects to the Colorie Tracker backend API. For detailed backend API documentation, endpoints, and setup instructions, see the [Backend README](../backend/README.md).
+
 ## 📱 Overview
 
 Colorie Tracker is a comprehensive calorie tracking mobile app that allows users to:
@@ -136,6 +138,8 @@ The app connects to the backend API. Configure the API URL in `constants/config.
 ```typescript
 export const API_URL = "https://colorie-tracker.vercel.app/api";
 ```
+
+> **Note**: Make sure the backend server is running and accessible. For backend setup, API endpoints, and environment configuration, see the [Backend README](../backend/README.md).
 
 ### Environment Setup
 
@@ -387,10 +391,10 @@ ISC
 
 ## 🔗 Related Documentation
 
-- [Backend README](../backend/README.md) - Backend API documentation
-- [Root README](../README.md) - Project overview
-- [Expo Documentation](https://docs.expo.dev/)
-- [React Query Documentation](https://tanstack.com/query/latest)
+- **[Backend README](../backend/README.md)** - Complete backend API documentation, endpoints, setup instructions, and configuration
+- [Root README](../README.md) - Project overview and full-stack setup guide
+- [Expo Documentation](https://docs.expo.dev/) - Expo framework documentation
+- [React Query Documentation](https://tanstack.com/query/latest) - React Query state management docs
 
 ---
 
